@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>About Flask</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/bootstrap.css') }}">
+
+  </head>
+  <body>
+
+    <h1> About Check It! </h1>
+    <p> Using a neural network and natural language processing,
+    we are able to identify bias within an article.
+    This lets you know what you're reading and how to view it.</p>
+
+    <label for="title">Article Title:</label>
+
+    <input type="text" id="title" title="title" required
+       minlength="4" maxlength="1000" size="10">
+
+    <label for="author">Author:</label>
+
+    <input type="text" id="author" author="author" required
+       minlength="4" maxlength="1000" size="10">
+
+    <label for="newsorg">News Source:</label>
+
+    <input type="newsorg" id="newsorg" newsorg="newsorg" required
+       minlength="4" maxlength="1000" size="10">
+
+    <label for="month">Month:</label>
+
+    <input type="text" id="month" month="month" required
+       minlength="4" maxlength="1000" size="10">
+
+    <label for="day">Day:</label>
+
+    <input type="text" id="day" day="day" required
+       minlength="4" maxlength="1000" size="10">
+
+    <label for="year">Year:</label>
+
+    <input type="year" id="year" year="year" required
+       minlength="4" maxlength="1000" size="10">
+
+    <br></br>
+    <textarea>
+    User can enter article text...
+    </textarea>
+
+  </body>
+</html>
